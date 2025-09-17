@@ -336,16 +336,6 @@ OPENAI_EMBEDDING_MODEL=text-embedding-3-small
 - ❌ Custo por token
 - ❌ Requer conexão com internet
 
-### Modelos de Embeddings Disponíveis
-
-| Provedor | Modelo | Dimensões | Contexto | Observações |
-|----------|--------|-----------|----------|-------------|
-| Local | all-MiniLM-L6-v2 | 384 | 256 tokens | Recomendado para início |
-| Local | all-mpnet-base-v2 | 768 | 384 tokens | Maior qualidade |
-| Gemini | embedding-001 | 768 | 2048 tokens | Multilingual |
-| OpenAI | text-embedding-3-small | 1536 | 8191 tokens | Custo/benefício |
-| OpenAI | text-embedding-3-large | 3072 | 8191 tokens | Máxima qualidade |
-
 ### Configurações de Chunking
 
 Para documentos muito grandes ou muito técnicos, você pode ajustar as configurações no `ingest.py`:
