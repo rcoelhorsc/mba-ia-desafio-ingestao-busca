@@ -75,7 +75,7 @@ O sistema é composto por três componentes principais:
 
 ### 2. Clone do Repositório
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/rcoelhorsc/mba-ia-desafio-ingestao-busca
 cd mba-ia-desafio-ingestao-busca
 ```
 
